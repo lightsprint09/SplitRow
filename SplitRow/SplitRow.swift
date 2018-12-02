@@ -72,7 +72,7 @@ open class _SplitRow<L: RowType, R: RowType>: Row<SplitRowCell<L,R>> where L: Ba
 			rowValue.left = row.value
 			self.value = rowValue
 			
-			subscribe(onChange: row)
+			//subscribe(onChange: row)
 			subscribe(onCellHighlightChanged: row)
 		}
 	}
@@ -87,7 +87,7 @@ open class _SplitRow<L: RowType, R: RowType>: Row<SplitRowCell<L,R>> where L: Ba
 			rowValue.right = row.value
 			self.value = rowValue
 			
-			subscribe(onChange: row)
+			//subscribe(onChange: row)
 			subscribe(onCellHighlightChanged: row)
 		}
 	}
